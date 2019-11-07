@@ -3,7 +3,8 @@
     background: black;
     color: #ffffff;
     z-index: 20;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
 }
 .cookie-banner .text{
     padding: 2% 20%;

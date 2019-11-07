@@ -23,7 +23,7 @@ function initBanner(data){
 
 
 	html +="</div></div></div></div>";
-	$('body').prepend(html);
+	$('body').append(html);
 }
 
 
