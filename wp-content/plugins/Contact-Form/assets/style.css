@@ -1,0 +1,40 @@
+#contactForm  {
+  background: darkslategrey;
+  padding: 20px 40px;
+  color: #fff;
+  text-align: center;
+}
+
+#contactForm form .subject {
+  width: 100%;
+}
+
+#contactForm form .reCaptcha {
+  width: 50%;
+}
+
+#contactForm form .reCaptcha:first-of-type {
+  float: left;
+}
+
+#contactForm form .submit {
+  margin: 1em auto;
+}
+
+.success {
+  background: lightgreen;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.error{
+  background: #c00;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 10px;
+}

@@ -1,0 +1,73 @@
+.cookie-banner{
+    width: 100vw;
+    background: black;
+    color: #ffffff;
+    z-index: 20;
+    position: absolute;
+}
+.cookie-banner .text{
+    padding: 2% 20%;
+}
+.cookie-banner .text p{
+    font-size: 16px!important;
+    font-weight: lighter !important;
+    line-height: 20px!important;
+    color: white;
+    text-align: center;
+}
+
+
+.cookie-banner .text .link{
+    text-align: center;
+    padding-top: 20px;
+}
+.cookie-banner .text .link a{
+   text-decoration: none;
+   color: #000;
+   background: #ffffff;
+   padding: 10px 30px;
+   border-radius: 5px;
+   font-size: 16px;
+   font-weight: lighter !important;
+   line-height: 20px;
+}
+.cookie-banner .text .link a:hover{
+    color: #ffffff;
+    background: #c00;
+}
+
+.cookie-banner .close {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    z-index: 30;
+    opacity: unset!important;
+  }
+.cookie-banner  .close:before, .close:after {
+    position: absolute;
+    content: ' ';
+    height: 33px;
+    width: 1px;
+    background-color: #ffffff;
+}
+.cookie-banner  .close:before {
+    transform: rotate(45deg);
+}
+.cookie-banner  .close:after {
+    transform: rotate(-45deg);
+  }
+
+.cookie-banner .close:hover{
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 767px) {
+    .cookie-banner{
+        display: none;
+    }
+}
