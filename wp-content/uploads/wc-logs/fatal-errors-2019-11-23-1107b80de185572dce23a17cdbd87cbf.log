@@ -1,0 +1,20 @@
+2019-11-23T12:29:11+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on null in /Applications/MAMP/htdocs/CMS2/wp-content/plugins/CMS2-custom-checkout-fields/cms2-checkout-field.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/CMS2/wp-includes/class-wp-hook.php(286): CustomCheckout->gift_bag(Object(WC_Checkout))
+#1 /Applications/MAMP/htdocs/CMS2/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/CMS2/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/CMS2/wp-content/plugins/woocommerce/templates/checkout/form-shipping.php(69): do_action('woocommerce_aft...', Object(WC_Checkout))
+#4 /Applications/MAMP/htdocs/CMS2/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/CMS2/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(301): wc_get_template('checkout/form-s...', Array)
+#6 /Applications/MAMP/htdocs/CMS2/wp-includes/class-wp-hook.php(286): WC_Checkout->checkout_f in /Applications/MAMP/htdocs/CMS2/wp-content/plugins/CMS2-custom-checkout-fields/cms2-checkout-field.php on line 22
+
+2019-11-23T12:30:29+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on null in /Applications/MAMP/htdocs/CMS2/wp-content/plugins/CMS2-custom-checkout-fields/cms2-checkout-field.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/CMS2/wp-includes/class-wp-hook.php(286): CustomCheckout->gift_bag(Object(WC_Checkout))
+#1 /Applications/MAMP/htdocs/CMS2/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/CMS2/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/CMS2/wp-content/plugins/woocommerce/templates/checkout/form-shipping.php(69): do_action('woocommerce_aft...', Object(WC_Checkout))
+#4 /Applications/MAMP/htdocs/CMS2/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/CMS2/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(301): wc_get_template('checkout/form-s...', Array)
+#6 /Applications/MAMP/htdocs/CMS2/wp-includes/class-wp-hook.php(286): WC_Checkout->checkout_f in /Applications/MAMP/htdocs/CMS2/wp-content/plugins/CMS2-custom-checkout-fields/cms2-checkout-field.php on line 22
+
